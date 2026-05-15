@@ -159,6 +159,10 @@ gap:40px;
 margin-top:60px;
 }
 
+.video-grid .project-title {
+  font-size: 13px;
+}
+
 .video-grid .project{
 margin-bottom:0;
 }
@@ -311,6 +315,8 @@ opacity:0;
 transition:opacity 0.4s ease 0.15s;
 color:white;
 text-align:center;
+text-shadow: -1px 0 0.5px rgba(0, 255, 255, 0.3), 1px 0 0.5px rgba(255, 0, 0, 0.3);
+filter: blur(0.4px);
 }
 
 .project:hover img{
@@ -468,13 +474,13 @@ flex:100%;
 }
 
 .project-title {
-  opacity: 0.8;
+  opacity: 0.9;
   align-items: flex-end;
   color: #b7b7b7;
   text-shadow: -1px 0 0.5px rgba(0, 255, 255, 0.2), 1px 0 0.5px rgba(255, 0, 0, 0.2);
-  padding-bottom: 12px;
-  font-size: 13px;
-  
+  padding-bottom: 9px;
+  font-size: clamp(9px, 1.8vw, 13px);
+  filter: blur(0.4px);
 }
 
 }
