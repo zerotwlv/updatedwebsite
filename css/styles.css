@@ -462,8 +462,6 @@ display:block;
 display:block;
 }
 
-@media (max-width:900px){
-
 .about{
 flex-direction:column;
 }
@@ -479,8 +477,7 @@ flex:100%;
   color: #b7b7b7;
   text-shadow: -1px 0 0.5px rgba(0, 255, 255, 0.2), 1px 0 0.5px rgba(255, 0, 0, 0.2);
   padding-bottom: 9px;
-  font-size: clamp(9px, 1.8vw, 13px);
-  filter: blur(0.4px);
+  font-size: clamp(9px, 2.8vw, 11px);
 }
 
 }
